@@ -13,11 +13,21 @@ namespace c_sharp_Enums
 
         public Gender gender { get; set; }
 
+        public CarType carType { get; set; }
+
         public User(string Name, int id, Gender gender) 
         { 
             this.Name = Name;
             this.id = id;
             this.gender = gender;
+        }
+
+        public User(string Name, int id, CarType carType)
+        {
+            this.Name = Name;
+            this.id = id;
+            this.carType = carType;
+           
         }
     }
 
@@ -26,6 +36,15 @@ namespace c_sharp_Enums
         MALE,
         FEMALE,
         OTHER
+
+    }
+
+    enum CarType
+    {
+        BASIC,
+        PREMIUM,
+        VAN,
+        ULTRA_PREMIUM,
 
     }
 }
