@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -41,10 +42,15 @@ namespace c_sharp_Enums
 
     enum CarType
     {
-        BASIC=100,
-        PREMIUM=200,
-        VAN=150,
-        ULTRA_PREMIUM=250,
+        [Description("this is BASIC")]
+        BASIC =100,
+        [Description("this is PREMIUM ")]
+        PREMIUM = 200,
+        [Description("this is VAN ")]
+        VAN =150,
+        [Description("this isULTRA_PREMIUM")]
+         ULTRA_PREMIUM =250,
+        
 
     }
 }
