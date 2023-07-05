@@ -10,7 +10,7 @@ internal class Program
        User user3 = new User("OMRAN", 122, CarType.ULTRA_PREMIUM);
        User user4 = new User("ALI", 127, CarType.VAN);
 
-
+        Console.WriteLine((int)user3.carType);
 
     }
 }

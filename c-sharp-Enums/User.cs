@@ -41,10 +41,10 @@ namespace c_sharp_Enums
 
     enum CarType
     {
-        BASIC,
-        PREMIUM,
-        VAN,
-        ULTRA_PREMIUM,
+        BASIC=100,
+        PREMIUM=200,
+        VAN=150,
+        ULTRA_PREMIUM=250,
 
     }
 }
