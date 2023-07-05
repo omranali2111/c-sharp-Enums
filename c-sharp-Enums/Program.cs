@@ -17,7 +17,9 @@ internal class Program
         string description=getEnumDescription(CarType.VAN);
         Console.WriteLine(description);
 
-
+        int ordinalValue = 200;
+        CarType type = (CarType)ordinalValue;
+        Console.WriteLine(type.ToString());
 
 
 
